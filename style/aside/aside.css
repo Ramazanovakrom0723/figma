@@ -1,0 +1,66 @@
+aside {
+  width: 100%;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  color: #fff;
+  background-color: #1F2E35;
+}
+aside .aside-top-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+aside .aside-top-text h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 51px;
+}
+aside .aside-center-text {
+  width: 68%;
+}
+aside .aside-center-text .plus {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+aside .aside-center-text .plus img {
+  width: 24px;
+  height: 24px;
+}
+aside .aside-center-text .plus h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+aside .aside-center-text .minus {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+aside .aside-center-text .minus img {
+  width: 24px;
+  height: 24px;
+}
+aside .aside-center-text .minus h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+aside .aside-center-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 14px;
+  padding-bottom: 24px;
+}
+aside .aside-center-text .aside-line {
+  margin-top: 22px;
+  margin-bottom: 16px;
+  height: 1px;
+  background-color: #474747;
+}/*# sourceMappingURL=aside.css.map */

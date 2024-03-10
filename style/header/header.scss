@@ -1,0 +1,122 @@
+header{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    text-align: center;
+    background-color: #1F2E35;
+    padding-bottom: 150px;
+    h2{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        color: #fff;
+    }
+    .header-center-text{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        h1{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 60px;
+            color: #fff;
+        }
+        p{
+            color: #fff;
+        }
+    }
+    .header-boxes{
+        display: flex;
+        align-items: center;
+        gap: 71px;
+        flex-wrap: wrap;
+        justify-content: center;
+        .header-box{
+            width: 322px;
+            height: 426px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 16px;
+            background-color: #fff;
+            border-radius: 5px;
+            h2{
+                color: black;
+            }
+            p{
+                color: #22343D;
+            }
+        }
+    }
+    .price{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        h2{
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 100px;
+            color: #02897A;
+        }
+        .price2{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            text-align: start;
+            b{
+                font-size: 20px;
+                color: #02897A;
+            }
+            p{
+                color: #AFAFAF;
+            }
+        }
+    } 
+    .header-box-center{
+        width: 322px;
+        height: 426px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+        background-color: #02897A;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .price-center{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        h2{
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 100px;
+        }
+        .price-center2{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            text-align: start;
+        }
+    } 
+    .header-btn{
+        padding: 11px 18px;
+        border: none;
+        border-radius: 10px;
+        background-color: #02897A;
+        color: #fff;
+    }
+    .header-btn-center{
+        padding: 11px 18px;
+        border: none;
+        border-radius: 10px;
+        background-color: #fff;
+        color: #02897A;
+    }
+}

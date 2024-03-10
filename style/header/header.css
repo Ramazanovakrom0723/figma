@@ -1,0 +1,120 @@
+header {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  text-align: center;
+  background-color: #1F2E35;
+  padding-bottom: 150px;
+}
+header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #fff;
+}
+header .header-center-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+header .header-center-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #fff;
+}
+header .header-center-text p {
+  color: #fff;
+}
+header .header-boxes {
+  display: flex;
+  align-items: center;
+  gap: 71px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header .header-boxes .header-box {
+  width: 322px;
+  height: 426px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+header .header-boxes .header-box h2 {
+  color: black;
+}
+header .header-boxes .header-box p {
+  color: #22343D;
+}
+header .price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .price h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 100px;
+  color: #02897A;
+}
+header .price .price2 {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-align: start;
+}
+header .price .price2 b {
+  font-size: 20px;
+  color: #02897A;
+}
+header .price .price2 p {
+  color: #AFAFAF;
+}
+header .header-box-center {
+  width: 322px;
+  height: 426px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #02897A;
+  border-radius: 5px;
+  color: #fff;
+}
+header .price-center {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .price-center h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 100px;
+}
+header .price-center .price-center2 {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-align: start;
+}
+header .header-btn {
+  padding: 11px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #02897A;
+  color: #fff;
+}
+header .header-btn-center {
+  padding: 11px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #02897A;
+}/*# sourceMappingURL=header.css.map */

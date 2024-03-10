@@ -1,0 +1,33 @@
+main{
+    background-color: #22343D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    gap: 16px;
+    text-align: center;
+    h3{
+        font-size: 24px;
+    }
+    .text-center{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+        h2{
+            font-size: 34px;
+            line-height: 51px;
+        }
+    }
+    button{
+        margin-top: 32px;
+        padding: 11px 18px;
+        background-color: #02897A;
+        border: none;
+        border-radius: 10px;
+
+    }
+}
